@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <!-- navbar-light es un tema y bg-light es el background -->
         <a href="#" class="navbar-brand">Academind</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav">
             <!-- Usamos mr-auto en la clase de arriba si quremos que no ponga los elementos de la lista hasta la derecha -->
+            <!-- ml-auto añade margen a la izquierda -->
                 <li class="nav-item">
                     <a href="#" class="nav-link">Users</a>
                 </li>
@@ -24,6 +28,8 @@
             </ul>
         </div>
     </nav>    
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
