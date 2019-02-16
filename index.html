@@ -29,26 +29,27 @@
         </div>
     </nav>   
     
+    <div class="modal" id="demoModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Please confirm</h2>
+                    <button type="button" class="close"><span>&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>This is the modal body</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col">
                 <h1>Alerts and Modals</h1>
-            </div>
-        </div>
-        <div class="modal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title">Please confirm</h2>
-                        <button type="button" class="close"><span>&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>This is the modal body</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary">Confirm</button>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="row">
@@ -61,6 +62,11 @@
                         I am an alert <a href="#" class="alert-link">Click me!</a>
                     </p> 
                 </div>      
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#demoModal">Show Modal</button>
             </div>
         </div>
     </div>
